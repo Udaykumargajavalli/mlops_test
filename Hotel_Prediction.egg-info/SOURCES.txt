@@ -16,5 +16,9 @@ src/data_ingestion.py
 src/data_preprocessing.py
 src/logger.py
 src/model_training.py
+test/test_mlflow.py
+test/test_model.py
+test/testing_custom_exception_logger.py
+test/testing_logger.py
 utils/__init__.py
 utils/common_fucntions.py
