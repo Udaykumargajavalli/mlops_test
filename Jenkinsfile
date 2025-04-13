@@ -4,7 +4,7 @@ pipeline{
     environment{
         VENV_DIR = 'venv'
         GCP_PROJECT ='studious-saga-455906-v3'
-        GCLOUD_PATH = '/var/jenkins_home/gcloud-cloud-sdk/bin/'
+        GCLOUD_PATH = '/var/jenkins_home/gcloud-cloud-sdk/bin'
     }
 
 

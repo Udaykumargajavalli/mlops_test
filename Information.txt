@@ -36,4 +36,3 @@ docker logs jenkins-dind
 
 ############## NEW code ####################
 69d0059f22e8e47f4b1c6137b5bf3be9b5d42c47f9a5ddad5dd797ab27168b8b
-
