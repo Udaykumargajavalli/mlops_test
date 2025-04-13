@@ -1,4 +1,4 @@
-# Hotel Booking Prediction Project
+# Hotel Reservation Prediction Project
 
 This repository serves as a sandbox for implementing MLOps practices, focusing on automating the machine learning lifecycle, including model training, deployment, and monitoring.
 
