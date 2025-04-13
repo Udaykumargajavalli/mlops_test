@@ -9,7 +9,7 @@ from config.paths_config import *
 from google.cloud import storage
 from google.oauth2 import service_account
 
-creds = service_account.Credentials.from_service_account_file("/Users/udaykumargajavalli/Downloads/studious-saga-455906-v3-adef73932668.json")
+#creds = service_account.Credentials.from_service_account_file("/Users/udaykumargajavalli/Downloads/studious-saga-455906-v3-adef73932668.json")
 
 # set GOOGLE_APPLICATION_CREDENTIALS = path
 
@@ -29,7 +29,7 @@ class DataIngestion:
 
     def download_csv_from_gcp(self):
         try:
-            clinet = storage.Client(credentials = creds, project=creds.project_id)
+            clinet = storage.Client()
             bucket = clinet.bucket(self.bucket_name)
             blob = bucket.blob(self.file_name)
 
