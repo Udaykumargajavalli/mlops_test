@@ -145,7 +145,7 @@ class DataPreprocessing:
             train_df = self.balance_data(train_df)
             test_df = self.balance_data(test_df)
 
-            trian_df = self.select_features(train_df)
+            train_df = self.select_features(train_df)
             test_df = test_df[train_df.columns]
 
             self.save_data(train_df, PROCESSED_TRAIN_DATA_PATH)
