@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+flask
+ipykernel
+google-cloud-storage
+pyyaml
+imblearn
+lightgbm
+mlflow

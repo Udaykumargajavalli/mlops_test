@@ -20,8 +20,8 @@ mlops_test/
 ├── pipeline/                       # Training pipeline components
 ├── src/                            # Source code (data processing, training, etc.)
 ├── static/, templates/             # Flask web assets
-├── test.py, test_model.py          # Test scripts for components
-├── testing_logger.py               # Logging test utilities
+├── test/                           # Test scripts for components
+
 ```
 
 ---
